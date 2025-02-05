@@ -10,7 +10,7 @@ Das Image enthält lediglich den Bootloader selbst, sowie ein Menü mit Beispiel
 Nach dem Brennen des Images auf den USB-Stick enthält dieser zunächst diese zwei Partitionen:
 - BOOTLOADER (Partition 1) mit den GRUB-Bootloadern für <b>BIOS</b> und <b>EFI</b>-Systeme.
 - GRUB-MENU (Partition 2) mit einer Datei namens grub.cfg, welche nur das anpassbare Menü enthält.
-Das Menü wird für sowohl für <b>BIOS</b>- als auch <b>EFI</b>-System gleichermaßen verwendet - bei Bedarf kann jedoch der Hintergrund für beide Varianten individuell eingestellt werden - diese sind in den Konfigurations-Dateien <i>grub.cfg<i> des entprechenden Boot-Modus in der BOOTLOADER-Partition hinterlegt.
+Das Menü wird für sowohl für <b>BIOS</b>- als auch <b>EFI</b>-System gleichermaßen verwendet. Bei Bedarf kann der Hintergrund für beide Boot-Modi in den Konfigurations-Dateien <i>grub.cfg</i> des entprechenden Boot-Modus in der BOOTLOADER-Partition individuell hinterlegt werden.
 
 Darüber hinaus sind auf dem USB-Stick folgende weitere Partitionen zu finden, welche jedoch nur der besseren Nachvollziehbarkeit der Einträge im Menü dienen, und in dieser Form natürlich weder eingerichtet noch sinnvoll zu nutzen sind. Diese Partitionen müssen je nach Verwendung des USB-Sticks individuell angepasst bzw. ersetzt werden.
 - OS: Betriebssystem, bspw. Debian
