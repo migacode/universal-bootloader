@@ -1,5 +1,5 @@
-# universal-bootloader
-Universeller Boot-Loader für BIOS und EFI-Systeme auf Basis des <a href="https://www.gnu.org/software/grub/">GRUB Bootloaders</a>.
+# Universal-Bootloader
+Universeller <b>Bootloader</b> für <b>BIOS</b> und <b>EFI</b>-Systeme auf Basis des <a href="https://www.gnu.org/software/grub/">GRUB Bootloaders</a>.
 
 Zur Erstellung eines boot-fähigen USB-Sticks, der sowohl auf <b>BIOS</b>-Systemen als auch auf <b>EFI</b>-Systemen gleichermaßen startet.
 
