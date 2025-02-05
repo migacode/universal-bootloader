@@ -18,6 +18,6 @@ Darüber hinaus sind auf dem USB-Stick folgende weitere Partitionen zu finden, w
 - ISO: ISO-Dateien
 - IMG: IMG-Dateien
 
-<img src="./img/bootscreen_bios.png">
-<br />
+<img src="./img/usbstick_partitions.png"><br />
+<img src="./img/bootscreen_bios.png"><br />
 <img src="./img/bootscreen_efi.png">
