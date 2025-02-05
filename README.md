@@ -12,4 +12,4 @@ Nach dem Brennen des IMages auf den USB-Stick enthält dieser zwei Partitionen:
 - GRUB-MENU (Partition 2) mit einer Datei namens grub.cfg, welche nur das anpassbare Menü enthält.
 Das Menü wird sowohl nach dem Booten eines BIOS- als auch einem EFI-System gleichermaßen angezeigt.
 
-<b>Download</b> Universal-Bootloader&nbsp;&raquo;&nbsp;<a href="https://github.com/migacode/home-assistant/blob/main/universal-bootloader/universal-bootloader.img.gz"><strong>universal-bootloader.img.gz</strong></a><br />
+<b>Download</b> Universal-Bootloader&nbsp;&raquo;&nbsp;<a href="https://github.com/migacode/universal-bootloader/blob/main/universal-bootloader.img.gz"><strong>universal-bootloader.img.gz</strong></a><br />
