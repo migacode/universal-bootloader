@@ -22,6 +22,6 @@ Darüber hinaus sind auf dem USB-Stick folgende weitere Partitionen zu finden, w
 
 Beispiel bei Nutzung des <b>Universal Bootloader</b> zur Erstellung eines USB-Sticks mit einigen Linux-Systemen und Tools:
 
-<img src="./img/bootscreen_bios.png"><br />
+<img src="./img/bootscreen_bios.png">
 
-<img src="./img/bootscreen_efi.png">
+<br />
