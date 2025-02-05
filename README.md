@@ -3,7 +3,7 @@ Universeller Boot-Loader für BIOS und EFI-Systeme auf Basis des <a href="https:
 
 Zur Erstellung eines boot-fähigen USB-Sticks, der sowohl auf <b>BIOS</b>-Systemen als auch auf <b>EFI</b>-Systemen gleichermaßen startet.
 
-Die komprimierte Image-Datei <a href="https://github.com/migacode/universal-bootloader/blob/main/universal-bootloader.img.gz"><strong>universal-bootloader.img.gz</strong></a> mit einem geeigneten Programm wie <b>Balena-Etcher</b> oder dem <b>Gnome-Disk-Utility</b> einfach auf einen USB-Stick brennen.
+Die komprimierte Image-Datei <a href="https://github.com/migacode/universal-bootloader/blob/main/universal-bootloader.img.gz"><strong>universal-bootloader.img.gz</strong></a> mit einem geeigneten Programm wie <b>Balena-Etcher</b> oder dem <b>Gnome-Disk-Utility</b> einfach auf einen USB-Stick brennen. Je nach verwendetem Brenn-Pogramm muss die Datei "<i>universal-bootloader.img</i>" vor dem Brennen noch aus der mit gzip gepackten Datei (.gz) extrahiert werden.
 
 Das Image enthält lediglich den Bootloader selbst, sowie ein Menü mit Beispiel-Einträgen, welches mit einem Text-Editor auf die eigenen Anforderungen angepasst werden kann.
 Das Menü wird sowohl nach dem Booten eines <b>BIOS</b>- als auch einem <b>EFI</b>-System gleichermaßen angezeigt.
