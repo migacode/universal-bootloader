@@ -4,7 +4,7 @@ Universeller <b>Bootloader</b> für <b>BIOS</b> und <b>EFI</b>-Systeme auf Basis
 Zur Erstellung beispielsweise eines boot-fähigen USB-Sticks, der sowohl auf <b>BIOS</b>-Systemen als auch auf <b>EFI</b>-Systemen gleichermaßen startbar ist.
 
 Dazu muss die komprimierte Image-Datei <a href="https://github.com/migacode/universal-bootloader/blob/main/universal-bootloader.img.gz"><strong>universal-bootloader.img.gz</strong></a> mit einem geeigneten Programm wie <b>Balena-Etcher</b> oder dem <b>Gnome-Disk-Utility</b> einfach auf einen USB-Stick gebrannt werden.
-Je nach verwendetem Brenn-Pogramm muss die Datei "<i>universal-bootloader.img</i>" vor dem Brennen noch aus der mit gzip gepackten Datei (.gz) extrahiert werden.
+Je nach verwendetem Brenn-Programm muss die Datei "<i>universal-bootloader.img</i>" vor dem Brennen noch aus der mit gzip gepackten Datei (.gz) extrahiert werden.
 
 Das Image enthält lediglich den Bootloader selbst, sowie ein Menü mit Beispiel-Einträgen, welches mit einem beliebigen Text-Editor auf die eigenen Anforderungen angepasst werden kann.
 Nach dem Brennen des Images auf den USB-Stick enthält dieser zunächst diese zwei Partitionen:
