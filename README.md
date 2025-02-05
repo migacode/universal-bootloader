@@ -1,4 +1,4 @@
-# Universal-Bootloader
+# Universal Bootloader
 Universeller <b>Bootloader</b> für <b>BIOS</b> und <b>EFI</b>-Systeme auf Basis des <a href="https://www.gnu.org/software/grub/">GRUB Bootloaders</a>.
 
 Zur Erstellung beispielsweise eines boot-fähigen USB-Sticks, der sowohl auf <b>BIOS</b>-Systemen als auch auf <b>EFI</b>-Systemen gleichermaßen startbar ist.
@@ -19,5 +19,9 @@ Darüber hinaus sind auf dem USB-Stick folgende weitere Partitionen zu finden, w
 - IMG: IMG-Dateien
 
 <img src="./img/usbstick_partitions.png"><br />
+
+Beispiel bei Nutzung des <b>Universal Bootloader</b> zur Erstellung eines USB-Sticks mit einigen Linux-Systemen und Tools:
+
 <img src="./img/bootscreen_bios.png"><br />
+
 <img src="./img/bootscreen_efi.png">
