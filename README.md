@@ -7,7 +7,7 @@ Die Image-Datei <b>universal-bootloader.img.gz</b> mit einem geeigneten Programm
 Der USB-Stick muss dazu mindesten 64 MB groß sein. 
 
 Das Image enthält lediglich den Boot-Loader selbst sowie ein Menu mit Beispiel-Einträgen, welches auf die eigenen Anforderungen angepasst werden muss.
-Nach dem Brennen des IMages auf den USB-Stick enthäkt dieser zwei Partitionen:
-- BOOTLOADER (Partition 1) mit dem GRUB-Bootloader für BIOS UND EFI-Systeme.
+Nach dem Brennen des IMages auf den USB-Stick enthält dieser zwei Partitionen:
+- BOOTLOADER (Partition 1) mit dem GRUB-Bootloader für BIOS <u>und</u> EFI-Systeme.
 - GRUB-MENU (Partition 2) mit einer Datei namens grub.cfg, welche nur das anpassbare Menü enthält.
 Das Menü wird sowohl nach dem Booten eines BIOS- als auch einem EFI-System gleichermaßen angezeigt.
